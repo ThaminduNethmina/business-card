@@ -1,13 +1,13 @@
-import profilePic from '../assets/profile-pic.jpg';
+
+
 export default function Body() {
     return (
         <div className="card-body">
-            <img src={profilePic} alt="prof-pic" />
             <h2>Thamindu Nethmina</h2>
             <h4>Fullstack Developer</h4>
             <div className="btn-panel">
-                <a href="#" className="btn email">Email</a>
-                <a href="#" className="btn resume">LinkedIn</a>
+                <a href="#" className="btn email"><i class="fa-solid fa-envelope"></i>Email</a>
+                <a href="#" className="btn linkedin"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
             </div>
             <div className="details">
                 <h3>About Me</h3>
